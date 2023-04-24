@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+	
+		<meta charset="utf-8"/>
+		<title>Login do responsável </title>
+    <link rel="shortcut icon"  href="img/internet.png">
+		<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+     <script type="text/javascript" src="js/bootstrap-notify.min.js"></script>
+     <script type="text/javascript" src="js/npm.js"></script>
+     <script type="text/javascript" src="js/mask.js"></script>
+
+		  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    
+		
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+		<body>
+
+
+			<header id="cabecalho">
+			<nav id="menu">
+		
+			</nav>
+			</header>
+
+			 <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                <div class="card card-signin my-5">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Login do responsável</h5>
+                      <form method="post" class="form-signin" action="/autenticar">
+                        <div class="form-label-group">
+                          <input type="email" id="inputE-mail" class="form-control" placeholder="E-mail" name="email" required autofocus>
+                          <label for="inputE-mail">E-mail</label>
+                          </div>
+
+                          <div class="form-label-group">
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Senha" name="senha" required>
+                            <label for="inputPassword">Senha</label>
+                        </div>
+
+                        <input type="submit" class="btn btn-lg btn-primary btn-block text-uppercase" name="Entrar" value="Entrar">
+                        <a type="submit" class="btn btn-lg btn-primary btn-block text-uppercase" name="Voltar" value="Voltar" onclick="window.location.href='/'">Voltar </a>
+                        </form>
+                         <div id="formFooter">
+                       Não tem conta? <a class="underlineHover" href="/cadastroR">Registre-se</a>
+                              </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+		</body>
+</html>
